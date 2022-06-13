@@ -20,7 +20,7 @@
 ### Install
 > ❗ Requirement: **`xclip`** (X11), **`wl-clipboard`** (Wayland), **`pngpaste`** (MacOS)
 > 
-> ℹ️ Run `:checkhealth clipboard-image` to check a missing dependency
+> ℹ️ On Linux, do `echo $XDG_SESSION_TYPE` to check what display server you're on
 
 |Plugin manager|Script|
 |---|---|
@@ -29,6 +29,9 @@
 
 ### Usage
 This is the basic usage. If you want to see more you can read [API](/API.md)
+
+> you can input this command `PastImg` in markdown to copy image.
+> By default, it will create a new img folder in the current directory
 
 |Command|Demo|
 |---|---|
